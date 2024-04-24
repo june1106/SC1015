@@ -2,7 +2,7 @@
 ## About
 This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial Intelligence) which studies the specifications of mobile phones to determine the price of mobile phones. For a detailed walkthrough, please view the source code in order from:
 
-1. [Data_Extraction_Visualization】（https://github.com/hvsg69/SC1015/blob/main/Data_Extraction_Visualization.ipynb）
+1. [Data_Extraction_Visualization】(https://github.com/hvsg69/SC1015/blob/main/Data_Extraction_Visualization.ipynb)
 2. [Machine_Leaning(Decision Tree, Random Forest] (https://github.com/hvsg69/SC1015/blob/main/Machine_Learning%20(Decision%20Tree%2C%20Random%20Forest).ipynb)
 
 
