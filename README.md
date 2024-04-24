@@ -4,13 +4,17 @@ This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial I
 
 ## Problem Statement
 
-How do different mobile phone specifications affect its price?
-Are we able to predict the price of phones by their specifications?
+In this digital age, mobile phones have become essential tools in our daily lives. However, the wide range of prices in the market can often leave consumers and businesses feeling uncertain about their purchasing decisions. Without sufficient information about the price range of mobile phones, consumers and businesses may ask various questions to guide their decision-making process. Consumers, for instance, might want to understand the price range that aligns with their budget while meeting their desired specifications. On the other hand, businesses may inquire about market trends and consumer preferences to optimize their pricing strategies.
+
+1. How do different mobile phone specifications affect its price?
+2. Are we able to predict the price of phones by their specifications?
+
 
 ## Models Used
 
 1. Decision Tree
 2. Random Forest
+3. Random Forest with GridSearchCV
 
 ## Conclusion
 
