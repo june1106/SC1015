@@ -32,6 +32,11 @@ In this digital age, mobile phones have become essential tools in our daily live
 3. Technique to find the optimal hyperparameters for maximum accuracy
 4. The causes and effects of overfitting
 
+## Contributors
+
+1. Pang Yee Leong - Data Extraction & Visualization, Machine Learning (Decision Tree, Random Forest), Slides, Scripts
+2. Lam Wai Jun - Machine (Decision Tree, Random Forest), Slides
+
 ## References
 
 1. <https://www.kaggle.com/code/mahdavi1202/mobile-price-calssification-project>
