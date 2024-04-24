@@ -35,7 +35,7 @@ In this digital age, mobile phones have become essential tools in our daily live
 ## Contributors
 
 1. Pang Yee Leong - Data Extraction & Visualization, Machine Learning (Decision Tree, Random Forest), Slides
-2. Lam Wai Jun - Machine (Decision Tree, Random Forest), Slides
+2. Lam Wai Jun - Machine Learning (Decision Tree, Random Forest), Slides
 
 ## References
 
