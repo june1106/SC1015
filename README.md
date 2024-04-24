@@ -17,7 +17,7 @@ In this digital age, mobile phones have become essential tools in our daily live
 
 ## Models Used
 
-1. Decision Tree
+1. Decision Tree 
 2. Random Forest
 3. Random Forest with GridSearchCV
 
