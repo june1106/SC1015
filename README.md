@@ -12,3 +12,19 @@ Are we able to predict the price of phones by their specifications?
 1. Decision Tree
 2. Random Forest
 
+## Conclusion
+
+1. The RAM of a mobile phone is a key specification that influences the most mobile price among the 20 specifications we explored.
+
+## What did we learn from this project?
+
+1. Interpreting a multiclass confusion matrix
+2. The use of different machine learning models to improve the performance
+3. Technique to find the optimal hyperparameters for maximum accuracy
+4. The causes and effects of overfitting
+
+## References
+
+1. <https://www.kaggle.com/code/mahdavi1202/mobile-price-calssification-project>
+2. <https://www.v7labs.com/blog/confusion-matrix-guide>
+3. <https://www.nv5geospatialsoftware.com/docs/CalculatingConfusionMatrices.html>
