@@ -32,3 +32,4 @@ In this digital age, mobile phones have become essential tools in our daily live
 1. <https://www.kaggle.com/code/mahdavi1202/mobile-price-calssification-project>
 2. <https://www.v7labs.com/blog/confusion-matrix-guide>
 3. <https://www.nv5geospatialsoftware.com/docs/CalculatingConfusionMatrices.html>
+4. <https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html>
