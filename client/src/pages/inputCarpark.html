@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SelectParkingSpot</title>
+    <link rel="stylesheet" href="../static/css/inputCarpark.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://www.onemap.gov.sg/web-assets/libs/leaflet/leaflet.css" />
+    <script src="https://www.onemap.gov.sg/web-assets/libs/leaflet/onemap-leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="icons">
+            <i class="fas fa-user" id="username">Guest</i>
+            <button class="fas fa-clock" onclick="location.href='/history'"></button>
+            <button class="fa fa-sign-out" id="log-out-button"></button>
+        </div>
+        <button onclick="location.href='/inputDestination'">Back</button>
+    </div>
+
+    <div class="content">
+        <h2>Select a Parking Spot</h2>
+        <p>Based on your selected destination, here are the nearby parking options:</p>
+        <section class="carpark-content">
+            <div id="carpark-grid" class="carpark-grid">
+                <!-- Carparks will be dynamically added here -->
+            </div>
+        </section>
+    </div>
+    <div id='map' style='height:800px;'></div>
+
+    <script src="../static/js/inputCarpark.js"></script>
+</body>
+
+</html>

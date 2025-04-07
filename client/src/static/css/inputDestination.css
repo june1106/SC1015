@@ -1,0 +1,100 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+.header {
+    background: linear-gradient(to right, #e52d27, #ef473a);
+    padding: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    color: white;
+    font-weight: bold;
+}
+.header .icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.fas.fa-clock {
+    border: none;
+    background-color: transparent; 
+    color: white; 
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.step {
+    margin: 40px auto;
+    width: 60%;
+    text-align: left;
+}
+.step h2 {
+    font-size: 24px;
+    color: #a21b1b;
+    font-weight: bold;
+}
+.step p {
+    color: #666;
+    font-weight: 600;
+}
+
+.step span{
+    font-weight: 800;
+    color: black;
+}
+
+.search-box {
+    position: relative;
+    margin-top: 10px;
+}
+.search-box input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.search-box i {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #aaa;
+}
+.suggestions {
+    background: white;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.suggestions div {
+    padding: 8px;
+    cursor: pointer;
+    color: #a21b1b;
+    font-weight: bold;
+}
+.suggestions div:hover {
+    background: #f0f0f0;
+}
+.disabled {
+    opacity: 0.3;
+}
+.btn {
+    background: grey;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    cursor: not-allowed;
+    margin-top: 20px;
+}
+.btn.active {
+    background: #a21b1b;
+    cursor: pointer;
+}

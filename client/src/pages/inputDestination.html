@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>InputDestinationPage</title>
+    <link rel="stylesheet" href="../static/css/inputDestination.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'> <!-- font family "Montserrat"-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="icons">
+            <i class="fas fa-user" id="username">Guest</i>
+            <button class="fa fa-sign-out" id="log-out-button"></button>
+        </div>
+        <button class="fas fa-clock" onclick=location.href="/history"></button>
+    </div>
+
+    <div class="step" id="step1">
+        <h2>Step 1 </h2>
+        <p>Choose your <span>vehicle type</span>.</p>
+        <div class="search-box">
+            <input type="text" id="vehicleSearch" placeholder="Search">
+            <i class="fas fa-search"></i>
+        </div>
+        <div class="suggestions" id="vehicleSuggestions">
+            <div onclick="selectVehicle('Car/Van')">Car/Van</div>
+            <div onclick="selectVehicle('Motorcycle')">Motorcycle</div>
+            <div onclick="selectVehicle('Heavy')">Heavy</div>
+        </div>
+    </div>
+
+    <div class="step disabled" id="step2">
+        <h2>Step 2</h2>
+        <p>Choose your <span>destination</span>.</p>
+        <div class="search-box">
+            <input type="text" id="destinationValue" hidden>
+            <input type="text" id="destinationSearch" placeholder="Search" oninput="autocompleteDestination()" disabled>
+            <i class="fas fa-search"></i>
+        </div>
+        <div class="suggestions" id="destinationSuggestions"></div>
+    </div>
+
+    <button class="btn" id="findParking" onclick="searchCarparks(event);" disabled>Find
+        Parking!
+    </button>
+
+    <script src="../static/js/inputDestination.js"></script>
+</body>
+
+</html>
